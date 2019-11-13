@@ -1,0 +1,14 @@
+las procedencias son importantes para realizar operaciones logicas, el orden es el siguiente.
+
+1.- ** // exponente al cuadrado.
+2.- ! // operador de negacion 
+3.- * / - multiplicacion , division, resta
+4.- + - // Suma, resta
+5.- <> <= >= //  menor o mayor que..  menor o igual,  mayor o igual  
+6.- == <=> != // igualdad, menor que mayor que, diferencia
+7.- &&  // and
+8.- ||  // or
+9.- Asignacion
+10.- not
+11.- or, and
+
