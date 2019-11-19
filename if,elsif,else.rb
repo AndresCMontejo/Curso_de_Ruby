@@ -14,7 +14,8 @@ print "Introduce los primeros 4 numeros de tu tarjeta \n"
        else      
             puts "Numeros invalidos"
        end
-     
+
+           
        
 
        
