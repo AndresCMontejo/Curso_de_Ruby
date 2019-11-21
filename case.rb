@@ -6,19 +6,19 @@ print "Introduce una lada: \n"
   puts case lada
   when 993 
     "Tabasco"
-  when 222
+  when 229
      "Veracruz"
-  when 881
+  when 618
      "Durango"
-  when 777
+  when 55
      "CDMX"
-  when 998
+  when 983
      "Cancun"
-  when 222
+  when 921
      "Coatzacoalco"
-  when 555
-     "Edo de Mexico"
-  when 999
+  when 492
+     "Zacatecas"
+  when 614
      "Chihuahua"
   else
    "Lada no encontratada"
