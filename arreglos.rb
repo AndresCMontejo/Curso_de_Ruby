@@ -1,0 +1,1 @@
+#ver el video 14  y solucionar  la codificacion utf-8
