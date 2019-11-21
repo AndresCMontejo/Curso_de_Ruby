@@ -1,26 +1,24 @@
 puts "Por favor introduce una Palabra que desee Traducir: "
   palabra = gets.chomp
     print "Escribe un idioma que desee (Ingles, Frances): \n"
-     idioma = gets.chomp
-       idioma = palabra.to_s      
-
-case palabra == "Ingles" 
+    idioma = gets.chomp
+case palabra  
 when "Arbol"
-    puts "Tree"
+    puts "Traduccion = Tree"
 when "Antartida"
-    puts "Antartica"
+    puts "Traduccion = Antartica"
 when "Antes"
-    puts "Before"
+    puts "Traduccion = Before"
 when "Andromeda"
-    puts "Andromeda"
+    puts "Traduccion = Andromeda"
 when "Año"
-    puts "Year"
+    puts "Traduccion = Year"
 when "Asqueroso"
-    puts "Disgusting"
+    puts "Traduccion = Disgusting"
 when "Alacran"
-    puts "Scorpion"
+    puts "Traduccion = Scorpion"
 when "Arte"
-    puts "Art"
+    puts "Traduccion = Art"
 end
 
 
