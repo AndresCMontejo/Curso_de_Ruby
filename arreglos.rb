@@ -9,7 +9,7 @@ xd[4] = 4         #los numeros deben de ser sin comillas
 xd[5] = 'cinco'   #tambien se puede usar una comilla.
 xd[6] = true      #palabra reservadas del lenguaje.  
 
-puts xd[2]  #puedes mandar a imprimir en general solo llamando el nombre del arreglo, o una posicion especifica
+puts xd[8]  #puedes mandar a imprimir en general solo llamando el nombre del arreglo, o una posicion especifica
 #agragando los "[]" mas el numero de la posicion.
 
 #los arreglos son una coleccion de datos del mismo tipo, que se almacenan
@@ -18,5 +18,7 @@ puts xd[2]  #puedes mandar a imprimir en general solo llamando el nombre del arr
 #se empieza a contar de la posicion 0 hasta n posiciones.
 
 arreglo2 = %w[0 1 Hola Saludo] #el %W() es para escribir datos sin comas ni comillas, es otra forma de hacerlo
-puts arreglo2[2] 
+arreglo2 << 'Hola'  #Esto "<<" significa insertar cualquier valor que tengas a la derecha 
+puts arreglo2[0] 
+
 
