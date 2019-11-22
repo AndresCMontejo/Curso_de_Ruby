@@ -1,4 +1,7 @@
-#codificación: utf-8 solucionar problema
+# encoding: UTF-8
+
+"some string".encoding
+#=> #<Encoding:UTF-8>
 puts "Por favor introduce una Palabra que desee Traducir: "
   palabra = gets.chomp
    # print "Escribe un idioma que desee (Ingles, Frances): \n"
@@ -20,7 +23,7 @@ when "Asqueroso"
     puts "Traduccion = Disgusting"
 when "Alacran"
     puts "Traduccion = Scorpion"
-when "Arté"
+when "Arte"
     puts "Traduccion = Art"
 else
     puts "Esta palabra no existe en el diccionario"
