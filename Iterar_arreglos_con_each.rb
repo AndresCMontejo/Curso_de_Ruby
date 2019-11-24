@@ -10,8 +10,9 @@ number = %w[8 9 10 11 12 13 14]
 number.each_with_index do |numero,lugar| #"arreglo.each_with_index do" nos servira para poder saber en que posicion se encuentran nuestros datos.
     #tambien el metodo .each_with_index se encarga de iterar nuestros datos. 
     #puts "En la posicion #{lugar} tenemos #{numero}" #lugar es como nombramos a nuestra variable de posicion, puede colocar cualquier nombre. 
-suma += numero.to_i     
+suma += numero.to_i       #convertimos nuestra variable a .to_i debido a que estamos usando %w y eso convierte nuestros datos a "string" 
 end
        puts "El promedio de los datos es: #{suma.to_f / number.length}"
 
+numeros2 = [10, 11, 9, 4, 6, 20]
    
