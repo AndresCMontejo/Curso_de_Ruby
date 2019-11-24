@@ -18,6 +18,7 @@ end
 numeros2 = [10, 11, 9, 4, 6, 20]
 suma = 0
    numeros2.each do |suma2|
-    suma += suma2.to_i
+    suma += suma2.to_i  
    end
-   puts "El promedio de los datos de numeros es: #{suma.to_f / numeros2.length}"
+   puts "El promedio de los datos de numeros es: #{suma.to_f / numeros2.length}" 
+                                                 #se agrega .to_f para que nos de el valor en puntos decimales y length es para saber la longitud o cantidad de datos   
