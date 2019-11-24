@@ -14,5 +14,10 @@ suma += numero.to_i       #convertimos nuestra variable a .to_i debido a que est
 end
        puts "El promedio de los datos es: #{suma.to_f / number.length}"
 
+
 numeros2 = [10, 11, 9, 4, 6, 20]
-   
+suma = 0
+   numeros2.each do |suma2|
+    suma += suma2.to_i
+   end
+   puts "El promedio de los datos de numeros es: #{suma.to_f / numeros2.length}"
