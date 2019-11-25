@@ -8,5 +8,6 @@ mult = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]  #para ordenar hay que dejar de utilizar 
   #print mult * ", "  #join("") tambien se puede hacer con * ""
 
   #ordenas nuestros datos
-puts mult.sort 
- #mult.sort es para ordenar de menor a mayor nuestros datos
+puts mult.sort.reverse 
+ #mult.sort es para ordenar de menor a mayor nuestros datos y mult.sort.reverse para ordenar
+  #de mayor a menor.
