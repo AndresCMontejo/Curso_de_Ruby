@@ -1,9 +1,20 @@
-iniciar = ["Song 1", "Song 2", "Song 3", "Song 4", "Song 6", "Song 7", "Song 8", "Song 9", "Song 10"]
- En_Reproduccion = true
-  index_play = 0 #en la practica este 0 se convierte en un ciclo
+playlist = ["Song One", "Song Two", "Song Three", "Song For", "Song Five", "Song Six", "Song Seven", "Song Eight", "Song Nine", "Song Ten" ]
+ playing = true
+  index_song = 0  #este "0" puede ocasionar que nuestro codigo interprete un ciclo
+   while (index_song < playlist.length) && playing
+    puts "Reproduciendo #{playlist[index_song]}"
+    index_song += 1  #Este "1" sirve para que nuestra interpretacion no sea un ciclo, si colocas 2, este se imprimira de 2 en 2. 
+   end
 
-    while (index_play < iniciar.length} && En_Reproduccion
-        puts "En Reproduccion #{inicar[index_play]}"
-        index_play += 1
-    end
-   
+   song = ["Cancion_1", "Cancion_2", "Cancion_3", "Cancion_4"]
+   # colocamos nuestros datos
+      melody = true  #colocamos una accion true, ya que queremos que si nos envian un "1" se interprete nuestro codigo
+     #si colocamos false en nuestro programa, este no se interpretara.   
+      index_music = 0
+         while (index_music < song.length) && melody
+      #el codigo se lee de la siguiente manera: mientra que index_music(valor inicial es 0, osea sea 0),
+       # sea menor que song.length (la longitud de nuestros datos) y melody sea verdadero
+       #se imprimira: escuchando song (datos dentro de la variable) variable index_music (operacion suma) 
+          puts "Escuchando #{song[index_music]}"
+            index_music += 1
+                 end
