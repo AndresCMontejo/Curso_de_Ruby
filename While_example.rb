@@ -18,3 +18,12 @@ playlist = ["Song One", "Song Two", "Song Three", "Song For", "Song Five", "Song
           puts "Escuchando #{song[index_music]}"
             index_music += 1
                  end
+      
+     #otra forma de hacerlo
+         var = %w[lis1 lis2 lis3 lis4]
+                 lis = true
+                 index_in = 0
+                 while (index_in < var.length) && lis
+                 puts "La lista #{var[index_in]}"
+                 index_in += 1.to_i 
+         end     
