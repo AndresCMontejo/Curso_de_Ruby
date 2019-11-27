@@ -4,6 +4,19 @@ playlist = ["Song One", "Song Two", "Song Three", "Song For", "Song Five", "Song
 while (index_song < playlist.length) && playing
     puts "Reproduciendo #{playlist[index_song]}"
     index_song += 1  #Este "1" sirve para que nuestra interpretacion no sea un ciclo, si colocas 2, este se imprimira de 2 en 2. 
-end
 
-#continuar con el video 18
+
+  #Las siguiente funcion del programa es la siguiente: Cuando el usuario mande un "0", la cancion se
+  #detendra, en caso contrario de enviar "1", seguir reproduciendo. 
+
+  puts "Coloca el numero 0 para detener la cancion: "
+  accion = gets().chomp.to_i
+     
+       if accion == 0
+        playing = false
+       elsif accion == 1
+        playing  = true
+       else 
+            print "Accion incorrecta \n"
+       end
+    end
