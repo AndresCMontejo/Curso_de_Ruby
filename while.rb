@@ -11,12 +11,15 @@ while (index_song < playlist.length) && playing
 
   puts "Coloca el numero 0 para detener la cancion: "
   accion = gets().chomp.to_i
-     
-       if accion == 0
+  playing = false if accion == 0  
+  #otra manera de utilizar el if: playing = playlist != 0 ( playing[true] es igual a playlist si este no es igual a 0, osea difente de 0)
+=begin
+       if accion == 0  
         playing = false
        elsif accion == 1
         playing  = true
        else 
             print "Accion incorrecta \n"
-       end
-    end
+             end
+=end 
+            end
