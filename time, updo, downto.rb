@@ -1,1 +1,0 @@
-#archivo para el video numero 19 
