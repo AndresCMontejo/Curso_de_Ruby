@@ -1,1 +1,1 @@
-#archivo para hashes video 20
+hash = {"nombre" => "andres", "edad" = 24, 10 => "Diez", () => "Parentesis"} 
