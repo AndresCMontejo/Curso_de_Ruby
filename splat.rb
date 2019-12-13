@@ -14,5 +14,10 @@ saludos_a_todos "a los siguientes nombres: ", "Pepe", "Carlos", "Jorge", "Pedro"
 #El operador splat podemos colocar un metodo con "*" y poder imprimir cualquier argumento, desde simbolos
 # y numeros, a diferencia de utilizar nuestro metodo sin "*"
 
-
-#CONTINUAR CON EL VIDEO 25, 4.39
+def frase(saludos,*algo)
+    algo.each {|frases| puts "Esto es una prueba con #{saludos} #{frases}"}
+end
+ 
+string = ["Andres","Hola",3,":)","áéíóú"]  #podemos usar un arreglo con un splat de esta manera, asi nuestro
+#programa sera interpretado por separado.  
+ frase "Bienvenido",*string
