@@ -18,6 +18,7 @@ def frase(saludos,*algo)
     algo.each {|frases| puts "Esto es una prueba con #{saludos} #{frases}"}
 end
  
+
 string = ["Andres","Hola",3,":)","áéíóú"]  #podemos usar un arreglo con un splat de esta manera, asi nuestro
 #programa sera interpretado por separado.  
  frase "Bienvenido",*string
