@@ -10,9 +10,9 @@ class Video #para crear una clase, se coloca la primera letra mayuscula, mas la 
     end
 #Defnimos los metodos dentro de clase
 end
-video_30_curso_Ruby = Video.new
-video_30_curso_Ruby.title = "Objetos y clases"
-video_31_curso_Ruby = Video.new
-video_31_curso_Ruby.title = "Atributos"
-puts video_30_curso_Ruby.title
-puts video_31_curso_Ruby.title
+video_30_curso_ruby = Video.new
+video_30_curso_ruby.title = "Objetos y clases"
+video_31_curso_ruby = Video.new
+video_31_curso_ruby.title = "Atributos"
+puts video_30_curso_ruby.title
+puts video_31_curso_ruby.title
