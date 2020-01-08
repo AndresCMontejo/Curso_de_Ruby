@@ -1,4 +1,10 @@
 #video
+class Object
+    def i_have_superpowers
+        puts "Este metodo esta en TODOS los Objetos"
+    end
+end
+
 class Video
     attr_accessor :titulo
     attr_accessor :duracion
@@ -24,7 +30,17 @@ class YoutubeVideo < Video
     puts "Algo Extra"
     end
 end
-
+=begin
+video = Video.new
+video.setup("Herencias")
 yt = YoutubeVideo.new
-yt.setup("Herencias")
+yt.setup("Demo")
 puts yt.titulo
+=end
+#puts 1.object_id  #nuestro object_id es heredado del componente padre, y este asu vez hereda un object_id
+#puts YoutubeVideo.new.object_id
+[].i_have_superpowers
+"".i_have_superpowers
+10.i_have_superpowers  #TODO LOS METODOS DE LA CLASE OBJECT ESTAN EN CUALQUIER OBJETOS, COMO: String, parentesis, etc.
+Video.new.i_have_superpowers
+YoutubeVideo.new.i_have_superpowers
