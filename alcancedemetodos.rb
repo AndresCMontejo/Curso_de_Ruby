@@ -13,4 +13,6 @@ end
 class Tutor < Humano 
 end
 Humano.new
-Tutor.new.publico  
+Tutor.new.publico  #aparece 3 veces "Soy público", 
+
+#5.09
