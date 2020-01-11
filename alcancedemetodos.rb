@@ -13,6 +13,6 @@ end
 class Tutor < Humano 
 end
 Humano.new
-Tutor.new.publico  #aparece 3 veces "Soy público", 
+Tutor.new.publico  #aparece 3 veces "Soy público", debido a que llamamos el metodo publico en la clase hija tutor, osea, este imprime como tal lo que hay en el padre, mas lo que hereda la clase hija mas el .new
 
 #5.09
