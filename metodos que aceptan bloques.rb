@@ -1,0 +1,1 @@
+#metodos que aceptan bloques
