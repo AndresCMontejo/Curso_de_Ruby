@@ -9,3 +9,5 @@ puts impares
 ["abcd","efgh","ijkl","mnño"].each_with_index do |nombre,index|
     puts "#{index}.- #{nombre}"
 end
+
+#video38
