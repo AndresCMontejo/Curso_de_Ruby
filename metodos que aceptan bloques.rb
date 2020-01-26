@@ -1,4 +1,4 @@
-#metodos que aceptan bloques
+#metodos que aceptan bloques 36
 
 
 
