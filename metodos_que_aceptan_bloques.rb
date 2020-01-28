@@ -26,7 +26,7 @@ def Hola &bloque
     otra_prueba(&bloque)
 end
 def otra_prueba &block
-    puts "llamando a llamar desde otro bloque"
+    puts "llamando a llamar desde otro bloque"  #mandar a llamas un bloque desde otro bloque 
     block.call
 end
 Hola {puts "Programa recibiendo bloque"}
