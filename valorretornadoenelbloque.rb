@@ -44,7 +44,7 @@ usuario3 = Users3.new
 print "Introducce un nombre: \n"
 usuario3.name1 = gets.chomp
 
-usuario3.saludando1 do |name1|  #iteracion2
+usuario3.saludando1 do |name1|  #iteracion4
     saludo1 = "HOLA #{name1}"
     saludo1
 end
